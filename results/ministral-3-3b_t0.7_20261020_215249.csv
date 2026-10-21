@@ -1,0 +1,4 @@
+﻿id,category,model,temperature,prompt,output,tokens,ttft_s,total_s,tokens_per_s
+manual,manual,ministral-3:3b,0.7,Hola,"¡Hola! 😊 ¿En qué puedo ayudarte hoy? Estoy aquí para lo que necesites: responder preguntas, recomendaciones, consejos, o incluso charlar un poco.
+
+¿Cómo puedo hacerte la vida más fácil hoy? 🌟",55,54.623,59.564,11.14

@@ -1,0 +1,9 @@
+services:
+  inference:
+    build: .
+    image: mistral-inference:cpu
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    volumes:
+      - ./results:/app/results
+    command: ["--model", "ministral-3:3b", "--prompts-file", "prompts/suite.json", "--temperature", "0.2", "--max-tokens", "512", "--tag", "docker"]
