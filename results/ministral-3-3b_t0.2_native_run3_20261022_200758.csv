@@ -1,0 +1,164 @@
+﻿id,category,model,temperature,prompt,output,tokens,ttft_s,total_s,tokens_per_s
+1,generacion,ministral-3:3b,0.2,"Redacta un correo formal a un cliente para informarle que su pedido se retrasará 3 días. Ideas: pedir disculpas, nueva fecha de entrega el viernes, ofrecer 10% de descuento.","**Asunto:** Actualización sobre su pedido – Posible retraso
+
+**Estimado/a [Nombre del cliente],**
+
+Espero que este mensaje le encuentre bien.
+
+En primer lugar, queremos agradecerle su confianza al elegir nuestros servicios y, sobre todo, su paciencia durante este proceso.
+
+Lamentamos informarle que, debido a [mencionar brevemente la causa del retraso: *circunstancias imprevistas en nuestra cadena de suministro, congestión logística, etc.*], su pedido [nombre del pedido o referencia] **se verá afectado por un retraso de 3 días adicionales**, lo que nos llevaría a una nueva fecha de entrega estimada el **viernes [fecha actual + 3 días, ej. 25 de octubre de 2026]**.
+
+Entendemos el inconveniente que esto puede ocasionar y nos disculpamos sinceramente por cualquier molestia generada. Para compensar, le ofrecemos un **descuento del 10% en su próxima compra** (valido hasta [fecha límite, ej. 15 de noviembre de 2026]), que puede aplicar al momento de efectuar el pago.
+
+Si prefiere, también puede **cancelar o modificar su pedido** sin costo adicional, y le enviaremos una nueva confirmación con la entrega ajustada. En cualquier caso, no dude en contactarnos para ampliar detalles o resolver cualquier duda.
+
+Quedamos a su disposición para cualquier comentario o necesidad que pueda tener. **¡Gracias por su comprensión!**
+
+Atentamente,
+**[Nombre de tu empresa]**
+[Nombre de tu puesto]
+[Teléfono de contacto]
+[Correo electrónico]
+[Web de la empresa]
+
+---
+**Notas adicionales:**
+- Si el retraso es por un factor externo (ej. clima, huelgas), ajusta la causa.
+- Personaliza el tono según la relación con el cliente (ej. más cercano si es habitual).
+- Incluye un **Cierre cordial** opcional: *""Un cordial saludo""*, *""Quedamos a su disposición""*.",446,5.253,47.753,10.5
+2,generacion,ministral-3:3b,0.2,"Escribe un mensaje breve y profesional para pedirle a mi jefe un día libre. Ideas: trámite personal, trabajo al día, disponible por teléfono.","Aquí tienes un mensaje profesional y breve para solicitar un día libre, adaptable según tu contexto:
+
+---
+**Asunto:** Solicitud de día libre
+
+Hola [Nombre del jefe],
+
+Espero que estés bien. Me gustaría solicitar un día libre el [fecha], ya que tengo [trámite personal/trabajo al día/disponibilidad para coordinar por teléfono si es necesario].
+
+Quedo atento/a a cualquier aclaración que necesites. Muchas gracias por tu tiempo.
+
+Un saludo,
+[Tu nombre]
+
+---
+**Variantes según contexto:**
+- Si prefieres ser más directo:
+*""¿Podría confirmar si el [fecha] está disponible para un día libre? Necesito coordinar [trámite personal].""*
+
+- Si prefieres incluir disponibilidad por teléfono:
+*""Sería posible coordinar el día [fecha] o, si prefieres, estaré disponible por teléfono para ajustar horarios.""*
+
+Ajusta los detalles según tu situación. ¿Necesitas ayuda para personalizarlo más?",219,5.199,36.88,6.91
+3,resumen,ministral-3:3b,0.2,"Resume en 3 viñetas el siguiente texto: La computación en la nube permite acceder a servidores, almacenamiento y software a través de internet sin comprar infraestructura propia. Las empresas pagan según el uso, lo que reduce costos iniciales y facilita escalar. Sin embargo, depender de un proveedor externo implica riesgos de privacidad, costos que crecen con el uso y dependencia de la conexión a internet. Por eso muchas organizaciones adoptan modelos híbridos que combinan servidores locales y servicios en la nube.","- **Ventajas de la computación en la nube**:
+  - Acceso a servidores, almacenamiento y software sin necesidad de infraestructura propia.
+  - Costos reducidos al pagar según el uso, permitiendo escalabilidad flexible.
+
+- **Desventajas y riesgos**:
+  - Riesgos de privacidad al depender de proveedores externos.
+  - Costos que pueden aumentar con el uso y dependencia de una conexión estable a internet.
+
+- **Modelos híbridos**:
+  - Muchas organizaciones combinan servidores locales con servicios en la nube para equilibrar ventajas y mitigar riesgos.",131,13.335,36.93,5.55
+4,resumen,ministral-3:3b,0.2,"Resume en 3 viñetas: Un lenguaje de cuarta generación (4GL) permite describir qué se desea obtener sin detallar cómo lograrlo. SQL es el ejemplo más conocido: se declara qué datos se quieren y el motor decide cómo recuperarlos. Estos lenguajes aumentan la productividad, pero ofrecen menos control sobre el rendimiento y están ligados a dominios específicos como bases de datos o reportes.","- **Abstracción de implementación**: Los 4GL (como SQL) permiten definir el *qué* (ej.: ""extraer todos los clientes mayores de 30 años"") sin especificar el *cómo* (ej.: ""recorrer tablas manualmente""), delegando la lógica al motor.
+- **Productividad vs. control**: Optimizan la eficiencia para tareas específicas (ej.: consultas a BD o generación de informes), pero reducen la flexibilidad para optimizar rendimiento manualmente.
+- **Dominio especializado**: Están diseñados para contextos concretos (ej.: bases de datos relacionales, análisis de datos), limitando su aplicabilidad fuera de ese ámbito.",148,13.299,28.842,9.53
+5,correccion_traduccion,ministral-3:3b,0.2,Corrige la ortografía y puntuación: 'ayer fuimos a la reunion y el gerente dijo que los resultados del trimestre fueron mejores de lo esperado pero que aun hay q mejorar la atencion al cliente',"Aquí está tu texto corregido con la ortografía y puntuación adecuadas:
+
+**""Ayer fuimos a la reunión, y el gerente dijo que los resultados del trimestre fueron mejores de lo esperado, pero que aún hay que mejorar la atención al cliente.""**
+
+### Mejoras realizadas:
+1. **Mayúscula inicial** en *""Ayer""* (por ser una frase independiente).
+2. **Comas** después de *""reunión""* y *""esperados""* para separar oraciones.
+3. **Punto y coma** antes de *""pero""* (para marcar contraste).
+4. **Tilde** en *""aún""* (para acentuar correctamente).
+5. **Espacio antes y después de la coma** en *""hay que""* (para claridad).
+
+Si necesitas ajustar el estilo o tono, ¡avísame!",178,5.167,22.374,10.35
+6,correccion_traduccion,ministral-3:3b,0.2,Traduce al inglés: 'Necesito que me envíen el informe de ventas antes del viernes para presentarlo en la reunión de directivos.',"Here’s your translation:
+
+**""I need the sales report sent before Friday so I can present it in the executive meeting.""**
+
+Would you like any adjustments to the tone or phrasing?",38,5.156,12.198,5.41
+7,codigo,ministral-3:3b,0.2,"Escribe una consulta SQL para obtener los 5 clientes con mayor monto total de compras, dadas las tablas clientes(id, nombre) y pedidos(id, cliente_id, monto).","Aquí tienes una consulta SQL para obtener los **5 clientes con mayor monto total de compras** desde las tablas `clientes` y `pedidos`:
+
+```sql
+SELECT
+    c.id AS cliente_id,
+    c.nombre AS nombre_cliente,
+    SUM(p.monto) AS monto_total_compras
+FROM
+    clientes c
+JOIN
+    pedidos p ON c.id = p.cliente_id
+GROUP BY
+    c.id, c.nombre
+ORDER BY
+    monto_total_compras DESC
+LIMIT 5;
+```
+
+### Explicación:
+1. **`JOIN`**: Une la tabla `clientes` con `pedidos` usando `cliente_id`.
+2. **`GROUP BY`**: Agrupa los resultados por `cliente_id` y `nombre` para calcular el total por cliente.
+3. **`SUM(p.monto)`**: Calcula la suma total de montos de compras por cliente.
+4. **`ORDER BY monto_total_compras DESC`**: Ordena los resultados de mayor a menor monto total.
+5. **`LIMIT 5`**: Devuelve solo los 5 clientes con mayor gasto.
+
+Si necesitas ajustar algún criterio (como excluir pedidos específicos o incluir más detalles), ¡avísame!",277,5.296,32.085,10.34
+8,codigo,ministral-3:3b,0.2,"Escribe una función en Python llamada es_palindromo que reciba un texto y devuelva True si es palíndromo, ignorando mayúsculas y espacios.","Aquí tienes una función en Python que verifica si un texto es un palíndromo, ignorando mayúsculas y espacios:
+
+```python
+def es_palindromo(texto):
+    # Eliminar espacios y convertir a minúsculas
+    texto_limpio = texto.replace("" "", """").lower()
+    # Comparar el texto limpio con su reverso
+    return texto_limpio == texto_limpio[::-1]
+
+# Ejemplo de uso:
+print(es_palindromo(""A man a plan a canal Panama""))  # Devuelve True
+print(es_palindromo(""Hola""))  # Devuelve False
+```
+
+### Explicación:
+1. **`texto.replace("" "", """")`**: Elimina todos los espacios del texto.
+2. **`texto.lower()`**: Convierte todo el texto a minúsculas para ignorar mayúsculas.
+3. **`texto_limpio[::-1]`**: Invierte la cadena (reverso).
+4. **`texto_limpio == texto_limpio[::-1]`**: Compara si el texto limpio coincide con su reverso.
+
+Si necesitas manejar otros caracteres (como puntos o guiones), puedes ajustar la función con una expresión regular para filtrar solo letras y números. ¿Quieres que modifique la función para incluir ese caso?",291,5.151,44.244,7.44
+9,razonamiento_veracidad,ministral-3:3b,0.2,"Si todos los gerentes son empleados y algunos empleados trabajan remoto, ¿se puede concluir que algunos gerentes trabajan remoto? Explica tu razonamiento.","No, **no se puede concluir que algunos gerentes trabajan remoto** solo con la información dada. Vamos a analizar el razonamiento paso a paso:
+
+### **Enunciado:**
+- *""Todos los gerentes son empleados""* → Esto significa que la categoría de **gerentes** está contenida dentro de la categoría de **empleados**.
+- *""Algunos empleados trabajan remoto""* → Esto indica que hay al menos un empleado que trabaja de forma remota, pero no necesariamente que todos los empleados lo hacen.
+
+### **¿Qué se puede deducir?**
+1. **Todos los gerentes son empleados** → Si un gerente trabaja remoto, **debe ser un empleado que trabaja remoto** (porque los gerentes son empleados).
+2. **Pero no se sabe si algún gerente en particular trabaja remoto** → Solo se sabe que **algunos empleados** (que podrían ser gerentes o no) trabajan remoto, pero no hay información sobre si **algunos gerentes** (específicamente) lo hacen.
+
+### **¿Por qué no se puede concluir que ""algunos gerentes trabajan remoto""?**
+- La afirmación *""algunos empleados trabajan remoto""* podría referirse a empleados que **no son gerentes** (por ejemplo, un empleado de nivel operativo).
+- Si solo algunos empleados en general trabajan remoto, **no hay garantía de que esos empleados remotos sean gerentes**.
+
+### **Conclusión lógica:**
+La información dada **no permite afirmar** que existan gerentes que trabajen remoto, porque:
+- La premisa *""algunos empleados trabajan remoto""* podría aplicarse a empleados que **no son gerentes**.
+- No hay una relación directa entre los empleados remotos y los gerentes.
+
+### **Ejemplo para ilustrar:**
+- **Grupo de empleados:**
+  - Gerentes: A, B, C
+  - No gerentes: D, E, F
+- *""Algunos empleados trabajan remoto""* → Podría ser **D o E** (no gerentes).
+- **Entonces, no hay evidencia de que A, B o C trabajen remoto.**
+
+---
+### **¿Qué sí se puede concluir?**
+- **Todos los gerentes son empleados remotos o presenciales** (pero esto no implica que haya gerentes remotos).
+- **Si se supiera que algunos empleados remotos son gerentes",512,5.179,67.032,8.28
+10,razonamiento_veracidad,ministral-3:3b,0.2,¿Cuál es la capital de Costa Rica y en qué año se declaró la independencia de Centroamérica de España?,"- **Capital de Costa Rica**: La capital es **San José**.
+
+- **Año de independencia de Centroamérica de España**:
+  Centroamérica declaró su independencia de España el **15 de septiembre de 1821** (aunque la consolidación política como una sola entidad federal llegó más tarde, en 1823).
+  *Si te refieres específicamente a Costa Rica*, su independencia de España fue declarada el **29 de marzo de 1821** (junto a otras provincias de la época).",112,5.266,24.492,5.83

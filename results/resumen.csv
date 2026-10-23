@@ -1,0 +1,9 @@
+﻿metrica,config,promedio,desviacion,n_corridas
+Tiempo al primer token (s),docker,4.569,0.042,3
+Tiempo al primer token (s),native,6.769,0.055,3
+Velocidad de generacion (tokens/s),docker,7.829,0.229,3
+Velocidad de generacion (tokens/s),native,8.276,0.228,3
+Memoria pico (GB),docker,2.867,0.057,3
+Memoria pico (GB),native,2.833,0.023,3
+Uso medio de CPU (%),docker,38.667,0.577,3
+Uso medio de CPU (%),native,37.0,0.0,3

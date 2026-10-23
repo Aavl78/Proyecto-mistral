@@ -1,0 +1,7 @@
+config,run,peak_ram_gb,avg_cpu_pct,duration_s
+native,1,2.86,37,355.9
+docker,1,2.85,38,344
+native,2,2.82,37,333.6
+docker,2,2.82,39,333.2
+native,3,2.82,37,353.7
+docker,3,2.93,39,325.3
