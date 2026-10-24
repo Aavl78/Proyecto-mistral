@@ -1,0 +1,186 @@
+﻿id,category,model,temperature,prompt,output,tokens,ttft_s,total_s,tokens_per_s
+1,generacion,ministral-3:3b,0.9,"Redacta un correo formal a un cliente para informarle que su pedido se retrasará 3 días. Ideas: pedir disculpas, nueva fecha de entrega el viernes, ofrecer 10% de descuento.","**Asunto:** Actualización sobre el retraso en su pedido
+
+Estimado/a [Nombre del Cliente],
+
+Espero que esta comunicación le encuentre bien. En primer lugar, deseamos expresar nuestro más sincero **agradecimiento por su confianza** en [Nombre de tu Empresa].
+
+Lamentamos informarle que, como consecuencia de **[breve explicación breve y transparente si es posible: ej. ""carga adicional en la cadena logística"" / ""problemas inesperados en un proveedor clave"" / ""fallo temporal en nuestra logística""]**, su pedido de [referencia del pedido o descripción del pedido, si aplica] que estaba programado para entrega el **[fecha original]**, podría **retrazarse hasta el **viernes, [fecha exacta actualizada, ej. *28 de octubre de 2026*]**.
+
+Nos disculpamos sinceramente por esta situación y tomamos el retraso muy en serio. En [Nombre de tu Empresa], nuestra prioridad siempre ha sido **cumplir con la satisfacción de nuestros clientes**, y queremos garantizar que, si es posible, no solo cumplan con el plazo ajustado, sino que también puedan disfrutar de su compra sin inconvenientes.
+
+Para compensar este retraso y mostrar nuestro agradecimiento por su paciencia, **ofrecemos un descuento del 10% en su próximo pedido con nosotros**. Esto puede aplicarse a su próxima compra dentro de los **[plazo, ej. 30 días]**, y quedará válido hasta el **[fecha de caducación, ej. *diciembre de 2026* si aplica]**.
+
+No dudamos en asumir cualquier responsabilidad por el retraso y agradecemos nuevamente su comprensión. **Estamos a su disposición** para cualquier gestión adicional que pueda requerir, como una actualización del seguimiento o la posibilidad de reenviar alguna parte del pedido si así lo prefiera.
+
+Quedamos atentos a su respuesta.
+
+Reciba un cordial saludo,
+**[Tu nombre completo]**
+[Nombre de tu puesto]
+[Nombre de la Empresa]
+📞 [Teléfono de contacto]
+📧 [Correo electrónico de atención al cliente]
+
+---
+**PD:** Si desea comentar algo o necesitar información sobre su pedido, no dude en contactarnos. Estamos aquí para ayudarle.",506,63.777,123.433,8.48
+2,generacion,ministral-3:3b,0.9,"Escribe un mensaje breve y profesional para pedirle a mi jefe un día libre. Ideas: trámite personal, trabajo al día, disponible por teléfono.","Aquí tienes algunas opciones profesionales y cortas, adaptadas a tu contexto. Puedes ajustar el tono según la relación con tu jefe:
+
+---
+
+**Opción 1 (formal, por escrito o correo):**
+*""Hola [Nombre del jefe],*
+
+Quiero informarte que necesito un día libre el [día exacto, ej. *viernes 31 de octubre*], ya que tengo que realizar un **trámite personal** fuera de la ciudad [o especificar: *por cuestiones administrativas urgentes*]. Mi disponibilidad por teléfono se mantiene el mismo horario que ahora, o bien puedo ajustarlo a vuestra conveniencia si lo deseáis.
+
+Gracias por vuestra comprensión. Quedo a la espera de su confirmación para cualquier aclaración.*
+
+*Un cordial saludo,*
+[Tu nombre]""*
+
+---
+
+**Opción 2 (breve por mensaje directo o oral):**
+*""Hola [Nombre],*
+
+Tengo que ir a un **trámite personal urgente** el [día] y necesito un día libre. Por si preferís, estoy disponible por teléfono hasta [hora] o ajustaré mis horarios si es necesario. ¿Cómo se ajusta a vuestro horario?""
+
+*— [Tu nombre]""*
+
+---
+
+**Opción 3 (si es para trabajo al día, con justificación técnica):**
+*""Hola [Nombre],*
+
+Por motivos de **planificación de carga de trabajo** (o ""reajuste de tareas pendientes""), me gustaría usar el [día] para concentrarme en [especificar brevemente: ej. *""la finalización de proyecto X""]*. Estoy disponible por teléfono en [hora] o puedo priorizar el correo. ¿Hay alguna fecha preferible?
+
+Gracias,
+[Tu nombre]""*
+
+---
+**Recomendaciones adicionales:**
+1. **Confirma por escrito** si es posible para documentar (especialmente en entornos formales).
+2. **Adapta el detalle**: Si el trámite es médico, añade: *""El médico ha indicado la urgencia""* (ej.: *""Trámite médico urgente con receta""*).
+3. **Si el día ya está fijo**, dilo explicitamente: *""El [día] estaba previsto para [razón], pero ahora hay que reprogramarlo""*.
+
+¿Necesitas ajustar alguno de estos mensajes para tu caso concreto?",505,5.255,65.396,8.4
+3,resumen,ministral-3:3b,0.9,"Resume en 3 viñetas el siguiente texto: La computación en la nube permite acceder a servidores, almacenamiento y software a través de internet sin comprar infraestructura propia. Las empresas pagan según el uso, lo que reduce costos iniciales y facilita escalar. Sin embargo, depender de un proveedor externo implica riesgos de privacidad, costos que crecen con el uso y dependencia de la conexión a internet. Por eso muchas organizaciones adoptan modelos híbridos que combinan servidores locales y servicios en la nube.","- **Acceso flexible y costos reducidos**:
+  - Acceso a servidores, almacenamiento y software via internet **sin infraestructura propia**.
+  - Costos variables según el uso (**pay-as-you-go**), facilitando escalabilidad.
+
+- **Desafíos clave**:
+  - Riesgos de **privacidad** y seguridad al depender de proveedores externos.
+  - Posibles **incrementos de costos** a largo plazo y necesidad de una **conectividad estable**.
+
+- **Modelos híbridos**:
+  - Combina **servidores locales** con servicios en la nube para equilibrar ventajas y control.",132,13.274,36.671,5.64
+4,resumen,ministral-3:3b,0.9,"Resume en 3 viñetas: Un lenguaje de cuarta generación (4GL) permite describir qué se desea obtener sin detallar cómo lograrlo. SQL es el ejemplo más conocido: se declara qué datos se quieren y el motor decide cómo recuperarlos. Estos lenguajes aumentan la productividad, pero ofrecen menos control sobre el rendimiento y están ligados a dominios específicos como bases de datos o reportes.","- **Abstracción del proceso**: Permite definir **qué** se busca (ej. datos) sin especificar **cómo** alcanzarlo, delegando el motor al lenguaje (ej. SQL) para ejecutar la consulta.
+- **Productividad vs. control limitado**: Aumentan la eficiencia, pero reducen la flexibilidad para optimizar el rendimiento manualmente.
+- **Uso específico**: Están especializados en dominios como **bases de datos, reportes o analíticas**, no para aplicaciones generales.",110,13.173,25.888,8.66
+5,correccion_traduccion,ministral-3:3b,0.9,Corrige la ortografía y puntuación: 'ayer fuimos a la reunion y el gerente dijo que los resultados del trimestre fueron mejores de lo esperado pero que aun hay q mejorar la atencion al cliente',"Aquí está tu frase corregida en cuanto a **ortografía y puntuación** (con algunas sugerencias de claridad y fluidez):
+
+---
+**""Ayer fuimos a la reunión, y el gerente dijo que los resultados del trimestre fueron mejores de lo esperado, aunque aún hay que mejorar la atención al cliente.""**
+
+---
+### Explicación de las correcciones:
+1. **""reunion"" → ""reunión""** (mayúscula inicial y acentuación).
+2. **""el gerente dijo"" →** Mejorado para mayor fluidez (aunque gramaticalmente correcto, añadir una **coma** después del **""y""** para mejor puntuación).
+3. **""mejores de lo esperado"" →** **Coma** después de *""esperado""* para separar la frase comparativa.
+4. **""aun hay q"" →** **""aún hay que""** (ortografía correcta de *""aún""* y ajuste por **que** para concordancia con *""mejorar""*).
+5. *""la atencion""* → **""la atención""** (accentuación correcta).
+---
+¿Necesitas algún otro ajuste o prefieres una versión más formal/informal?",256,5.145,29.147,10.67
+6,correccion_traduccion,ministral-3:3b,0.9,Traduce al inglés: 'Necesito que me envíen el informe de ventas antes del viernes para presentarlo en la reunión de directivos.',"Here’s your translation:
+
+**""I need the sales report sent to me before Friday so I can present it in the executive meeting.""**",28,5.201,7.704,11.23
+7,codigo,ministral-3:3b,0.9,"Escribe una consulta SQL para obtener los 5 clientes con mayor monto total de compras, dadas las tablas clientes(id, nombre) y pedidos(id, cliente_id, monto).","Aquí tienes una consulta SQL para obtener los **5 clientes con el mayor monto total de compras**, usando las tablas `clientes` y `pedidos`:
+
+```sql
+SELECT
+    c.id,
+    c.nombre,
+    SUM(p.monto) AS total_monto_compras
+FROM
+    clientes c
+JOIN
+    pedidos p ON c.id = p.cliente_id
+GROUP BY
+    c.id, c.nombre
+ORDER BY
+    total_monto_compras DESC
+LIMIT 5;
+```
+
+### Explicación:
+- **JOIN** se realiza entre `clientes` y `pedidos` en la clave común (`cliente_id`).
+- **GROUP BY** agrupa los resultados por cliente.
+- **SUM(p.monto)** calcula el total de compras por cliente.
+- **ORDER BY** ordena de mayor a menor por `total_monto_compras`.
+- **LIMIT 5** filtra solo los 5 clientes con mayores totales.
+
+Si necesitas incluir más información (como el **id del pedido** o **detalles de las compras**), puedo adaptar la consulta. ¿Necesitas algo más?",250,5.306,35.736,8.22
+8,codigo,ministral-3:3b,0.9,"Escribe una función en Python llamada es_palindromo que reciba un texto y devuelva True si es palíndromo, ignorando mayúsculas y espacios.","Aquí tienes la función `es_palindromo` en Python que verifica si un texto es un palíndromo, ignorando mayúsculas, espacios y caracteres no alfabénicos:
+
+```python
+def es_palindromo(texto):
+    # Eliminar espacios y convertir a minúsculas
+    texto_limpio = ''.join(c.lower() for c in texto if c.isalpha())
+
+    # Comprobar si el texto es igual al reverso
+    return texto_limpio == texto_limpio[::-1]
+```
+
+### Ejemplo de uso:
+```python
+print(es_palindromo(""A man, a plan, a canal: Panama""))  # True
+print(es_palindromo(""No es un palíndromo""))            # False
+```
+
+### Explicación:
+1. **Filtración**: Se eliminan los espacios y caracteres no alfabéticos (como puntos o coma) y se convierte todo a minúsculas.
+2. **Comparación**: Se comprueba si el texto limpio es igual a su reverso (`[::-1]` invierte la secuencia).
+
+¿Te gustaría que adapte la función para algún caso especial (ej. incluir números)?",257,5.206,40.689,7.24
+9,razonamiento_veracidad,ministral-3:3b,0.9,"Si todos los gerentes son empleados y algunos empleados trabajan remoto, ¿se puede concluir que algunos gerentes trabajan remoto? Explica tu razonamiento.","No, **no se puede concluir que algunos gerentes trabajan remoto** solo con la información proporcionada de la siguiente forma:
+
+---
+### **Análisis lógico**:
+La premisa es:
+1. **Todos los gerentes son empleados** (definición del término ""gerente"": siempre es un empleado).
+2. **Algunos empleados trabajan remoto** (subclase de empleados).
+
+Si aplicamos la lógica de **subclusión**, esto es:
+
+- **Gerentes** ⊂ **Empleados** (todos los gerentes están dentro del conjunto de los empleados).
+- **Remoto (empleados)** ⊂ **Empleados** (es una cualidad específica de algunos empleados, no necesariamente aplicable a todos los subgrupos dentro de los empleados).
+
+#### **¿Qué se puede deducir?**
+- **Sí**, puede haber gerentes que trabajan remoto, pero **no se puede afirmar que ALGUNAS personas en específico** (por ejemplo, los que hayan sido designados como gerentes) trabajen remoto basándose en el dato general: ""algunos empleados remoto"".
+
+---
+
+### **Ejemplo para ilustrar**:
+- **Conjunto A: Todos los gerentes son empleados.**
+- **Conjunto B: Algunos empleados (que podrían ser gerentes o no) trabajan remoto.**
+
+Si solo se sabe que *algunos* empleados (que podrían no ser gerentes) trabajan remoto, **no se puede decir** que *el subconjunto de gerentes* tenga necesariamente esa característica.
+
+---
+
+### **¿Cuándo sí se concluye?**
+Si hubiera otro dato como: **""Todos los gerentes trabajan remoto""** o **""Al menos un gerente trabaja remoto""**, entonces sí se podría inferir.
+
+---
+### **Conclusión final**:
+**No hay suficiente información para afirmarlo** porque la premisa solo especifica que algunos empleados (sin distinción de roles) pueden estar remoto. El hecho de que sean gerentes no garantiza que lo sean.
+
+---
+¿Te gustaría un ejemplo más formal con teoría de conjuntos para entender mejor?",450,5.283,59.547,8.29
+10,razonamiento_veracidad,ministral-3:3b,0.9,¿Cuál es la capital de Costa Rica y en qué año se declaró la independencia de Centroamérica de España?,"La capital de **Costa Rica** es **San José**.
+
+Para responder sobre la independencia de Centroamérica de España:
+- **Costa Rica** declaró su independencia de España el **15 de septiembre de 1821**, en el marco del proceso de independencia de las **Nuevas Españolas** (actuales países de Centroamérica y partes de Sudamérica).
+- El resto de los países de Centroamérica (incluyendo Costa Rica) declararon su independencia de España en el **15 de septiembre de 1821** como parte de la **Federación de Centroamérica** (creada en 1823).
+
+Si necesitas detalles más específicos sobre la historia del proceso, ¡avísame!",150,4.517,24.284,7.59

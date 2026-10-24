@@ -1,0 +1,164 @@
+﻿id,category,model,temperature,prompt,output,tokens,ttft_s,total_s,tokens_per_s
+1,generacion,ministral-3:3b,0.9,"Redacta un correo formal a un cliente para informarle que su pedido se retrasará 3 días. Ideas: pedir disculpas, nueva fecha de entrega el viernes, ofrecer 10% de descuento.","**Asunto:** Actualización sobre el retraso en su pedido
+
+**Estimado/a [Nombre del cliente],**
+
+En primer lugar, queremos expresarle nuestro más sincero agradecimiento por su confianza en [Nombre de tu empresa]. lamentamos profundamente informarle sobre el retraso en la entrega de su pedido [número de pedido], inicialmente programado para el [fecha original de entrega].
+
+Nos disculparemos por cualquier molestia ocasionada y le informamos que, debido a [breve explicación: causas externas, sobrecarga de trabajo, ajustes logísticos, etc.], la entrega se retrasará hasta el **viernes [fecha propuesta de entrega]**. De esta manera, cubrimos una ventana de espera razonable que minimice posibles inconvenientes.
+
+Para compensar por el incómodo, le ofrecemos un **descuento del 10%** sobre su próximo pedido (válido por un plazo limitado de [3 meses / hasta el [fecha]) en la categoría [productos específicos, si aplica]). Su código de descuento será: **[PEDIDORESLATENCIA2026]** (puede aplicarlo al pagar).
+
+No obstante, queremos asegurarnos de que su satisfacción sea siempre prioritaria. Si tiene alguna preferencia adicional sobre ajustes en su pedido (por ejemplo, envío en un plazo más flexible o alternativas de entrega), no dude en comunicárnoslo por este medio o a través de nuestro [formulario de contacto / chat en línea / teléfono: +[número]].
+
+Gracias por su comprensión. Estamos comprometidos con ofrecer la mejor experiencia posible y, en la medida de lo posible, resolver cualquier otra duda que pueda surgir.
+
+Reciba un cordial saludo,
+**[Nombre de tu empresa]**
+[Nombre de su puesto]
+[Teléfono de contacto]
+[Email]
+[Sitio web]
+
+---
+**Notas adicionales:**
+- Personaliza la **justificación del retraso** según sea relevante para tu contexto (ej.: problemas de cadena de suministro, retrasos en proveedores, etc.).
+- Si el descuento es válido para el cliente *actual* del pedido (no para futuros compradores), ajusta la comunicación (ej.: ""Este descuento aplica a su próximo pedido después de recibirlo"").
+- Si prefieres omitir el descuento por discreción comercial, reemplázalo con una disculpa genérica como:",512,62.779,115.257,9.76
+2,generacion,ministral-3:3b,0.9,"Escribe un mensaje breve y profesional para pedirle a mi jefe un día libre. Ideas: trámite personal, trabajo al día, disponible por teléfono.","Aquí tienes una propuesta breve y profesional, adaptable según tu caso:
+
+---
+**Asunto:** Solicitud de día libre
+
+*Hola [Nombre del jefe],*
+
+Mi día [fecha], por [motivo breve, ej. *""un trámite personal urgente""* / *""mi trabajo diario""*, etc.], estaré indisponible en horario laboral. Por si es necesario, estaré disponible por teléfono en [horario alternativo, ej. *""mañana de 10:00 a 12:00""*] si requieren algún apoyo urgente.
+
+Quedo atento/a a cualquier ajuste que consideren oportuno.
+*Agradeciendo de antemano su comprensión.*
+
+*Un cordial saludo,*
+[Tu nombre]
+
+---
+**Variantes rápidas** si prefieres ajustar el tono:
+- **Si es por un trámite:** *""Dado que [fecha] coincide con una citas médicas/legales que no pospongo""* (si es relevante).
+- **Si prefieres ser directo:** *""Como mi jornada está comprometida con [razón breve], me disculpo por cualquier inconveniente.""*",241,5.277,29.712,9.87
+3,resumen,ministral-3:3b,0.9,"Resume en 3 viñetas el siguiente texto: La computación en la nube permite acceder a servidores, almacenamiento y software a través de internet sin comprar infraestructura propia. Las empresas pagan según el uso, lo que reduce costos iniciales y facilita escalar. Sin embargo, depender de un proveedor externo implica riesgos de privacidad, costos que crecen con el uso y dependencia de la conexión a internet. Por eso muchas organizaciones adoptan modelos híbridos que combinan servidores locales y servicios en la nube.","- **Acceso flexible y escalabilidad**: Acceso a recursos como servidores, almacenamiento y software vía internet mediante pagos por uso, eliminando costos iniciales y permitiendo expandir capacidad fácilmente.
+
+- **Riesgos asociados**: Dependencia de un proveedor externo con posibles vulnerabilidades en privacidad, aumento de costos con el uso y necesidad constante de conexión a internet.
+
+- **Modelos híbridos**: Implementación de soluciones combinando infraestructura local con servicios en la nube para equilibrar ventajas de la flexibilidad con la autonomía y seguridad propias.",124,13.21,25.29,10.27
+4,resumen,ministral-3:3b,0.9,"Resume en 3 viñetas: Un lenguaje de cuarta generación (4GL) permite describir qué se desea obtener sin detallar cómo lograrlo. SQL es el ejemplo más conocido: se declara qué datos se quieren y el motor decide cómo recuperarlos. Estos lenguajes aumentan la productividad, pero ofrecen menos control sobre el rendimiento y están ligados a dominios específicos como bases de datos o reportes.","- **Abstracción orientada al resultado**: Describe el objetivo (ejemplo: datos específicos de una base de datos) sin especificar el proceso detallado (*qué y por qué*, no *cómo*).
+
+- **Ejemplo icónico**: **SQL** (ejemplo clásico de 4GL): el usuario solicita datos (*`SELECT * FROM tabla`*) y el motor ejecuta la consulta optimizada automáticamente.
+
+- **Limitaciones vs ventajas**:
+  - *Ventaja*: Mayor **productividad** (menos código para lograr resultados complejos).
+  - *Desventaja*: Menos **control de rendimiento** y **dependencia de un dominio específico** (ej.: solo útil para bases de datos o reportes).
+
+---
+*Nota: Comparable a 3GL (ej.: Pascal) en abstracción, pero con enfoque en *qué* en lugar de *cómo*.*",187,13.256,31.973,10.0
+5,correccion_traduccion,ministral-3:3b,0.9,Corrige la ortografía y puntuación: 'ayer fuimos a la reunion y el gerente dijo que los resultados del trimestre fueron mejores de lo esperado pero que aun hay q mejorar la atencion al cliente',"Aquí está la versión corregida con mejor ortografía, puntuación y claridad:
+
+**""Ayer fuimos a la reunión, y el gerente dijo que los resultados del trimestre habían sido mejores de lo esperado, pero que aún hay que mejorar la atención al cliente.""**
+
+Si prefieres un tono más informal:
+**""Ayer fuimos a la reunión y el gerente dijo que los resultados del trimestre fueron mejores de lo esperado, pero que aún falta trabajar en la atención al cliente.""**
+
+¿Te gustaría ajustar algo más?",112,5.169,16.03,10.32
+6,correccion_traduccion,ministral-3:3b,0.9,Traduce al inglés: 'Necesito que me envíen el informe de ventas antes del viernes para presentarlo en la reunión de directivos.',"Here’s your translation in English:
+
+**""I need the sales report to be sent to me before Friday so that I can present it in the executive meeting.""**",33,5.151,14.701,3.46
+7,codigo,ministral-3:3b,0.9,"Escribe una consulta SQL para obtener los 5 clientes con mayor monto total de compras, dadas las tablas clientes(id, nombre) y pedidos(id, cliente_id, monto).","Aquí tienes una consulta SQL para obtener los 5 clientes con el mayor monto total de compras, usando las tablas `clientes` y `pedidos`:
+
+```sql
+SELECT
+    c.id AS cliente_id,
+    c.nombre AS nombre_cliente,
+    SUM(p.monto) AS monto_total_compras
+FROM
+    clientes c
+JOIN
+    pedidos p ON c.id = p.cliente_id
+GROUP BY
+    c.id, c.nombre
+ORDER BY
+    monto_total_compras DESC
+LIMIT 5;
+```
+
+### Explicación:
+1. **JOIN**: Se une la tabla `clientes` con la tabla `pedidos` usando el campo `cliente_id`.
+2. **GROUP BY**: Agrupa los resultados por `cliente_id` y `nombre_cliente` para calcular el subtotal de compras.
+3. **SUM(p.monto)**: Suma los montos de todos los pedidos de cada cliente.
+4. **ORDER BY monto_total_compras DESC**: Ordena los clientes por su monto total de compras en orden descendente.
+5. **LIMIT 5**: Restringe los resultados a los 5 primeros clientes (los más compradores).",261,5.275,93.854,2.95
+8,codigo,ministral-3:3b,0.9,"Escribe una función en Python llamada es_palindromo que reciba un texto y devuelva True si es palíndromo, ignorando mayúsculas y espacios.","Aquí tienes la función `es_palindromo` en Python que cumple con tu solicitud:
+
+```python
+def es_palindromo(texto):
+    # Convertir a minúsculas y eliminar espacios
+    texto_limpio = texto.lower().replace("" "", """")
+
+    # Comprobar si el texto es un palíndromo
+    return texto_limpio == texto_limpio[::-1]
+```
+
+### Explicación:
+1. **Normalización**:
+   - `texto.lower()` convierte el texto a minúsculas para ignorar mayúsculas.
+   - `.replace("" "", """")` elimina los espacios.
+
+2. **Comprobación de palíndromo**:
+   - `texto_limpio[::-1]` invierte la cadena (ej: `""racemaroar""`).
+   - Si el texto limpio coincide con su inversión, devuelve `True` (es palíndromo).
+
+### Ejemplo de uso:
+```python
+print(es_palindromo(""A man a plan a canal Panama""))  # Output: True
+print(es_palindromo(""Hola""))                         # Output: False
+```
+
+Si necesitas alguna adaptación, ¡avísame!",256,5.252,92.68,2.93
+9,razonamiento_veracidad,ministral-3:3b,0.9,"Si todos los gerentes son empleados y algunos empleados trabajan remoto, ¿se puede concluir que algunos gerentes trabajan remoto? Explica tu razonamiento.","No, **no se puede concluir que ""algunos gerentes trabajan remoto""** a partir de la información dada sola, aunque hay **relación lógica pero no suficiente** para una afirmación contundente. Vamos a analizarlo paso a paso con un enfoque lógico:
+
+---
+
+### **Dato inicial (premisas)**
+1. **Todos los gerentes son empleados** → Si alguien tiene el cargo de gerente, automáticamente es empleado.
+2. **Algunos empleados trabajan remoto** → Existe al menos un empleado que cumple con esta condición.
+
+---
+
+### **Posibles interpretaciones y su valididad lógica**
+El problema es una **lógica condicional implicativa**. Vamos a analizarla con **síntesis en proposiciones** para clarificar los riesgos de falsa afirmación:
+
+#### **A. Premisa directa (logicamente válida)**
+*""Todos los gerentes son empleados""* es un concepto de **contenido inclusivo**: si X es gerente, entonces **X pertenece a la categoría de empleados**.
+**→ Esto NO significa que todos los empleados sean gerentes** (a menos que el lenguaje implique una jerarquía inversa que aquí no se da).
+
+#### **B. ¿Podría inferirse algo sobre los *gerentes que trabajan remoto*?**
+La pregunta en sí (¿*algunos gerentes trabajan remoto*?) está mal planteada en términos lógicos.
+Sin embargo, si la interpreto como: *""¿Puede deducirse que la distribución de trabajo remoto se aplica entre los gerentes?""*, el análisis es el siguiente:
+
+---
+#### **C. Prueba con diagramas lógicos**
+- **Categoría 1**: Gerentes (subconjunto de la categoría 2: Empleados).
+- **Categoría 2**: Empleados (que incluye: algunos trabajan remoto).
+
+**Conclusión del problema original**: Los gerentes no son un subconjunto específico de los empleados que trabajan remoto.
+- **Pej.:** Un gerente puede trabajar presencial, aunque existen empleados (incluyendo otros gerentes o no) que trabajan remoto.
+
+---
+
+### **Alternativa correcta de formulación para una inferencia válida**
+Si el enunciado se hubiera formulado como:
+*""Algunos empleados son gerentes. Algunos empleados trabajan remoto.""*
+Entonces sí podríamos decir:
+*""Al menos uno de",512,5.261,162.087,3.26
+10,razonamiento_veracidad,ministral-3:3b,0.9,¿Cuál es la capital de Costa Rica y en qué año se declaró la independencia de Centroamérica de España?,"La capital de **Costa Rica** es **San José**.
+
+Costa Rica declaró su independencia de **España** el **15 de septiembre de 1821** (aunque la declaración oficial fue aceptada en **1824** durante el periodo del **Gran Colón** en Centroamérica).
+
+Si necesitas más detalles históricos, ¡avísame!",75,5.444,13.001,9.94
