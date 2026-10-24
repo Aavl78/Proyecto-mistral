@@ -59,7 +59,7 @@ def main():
 
     metricas = {  # clave: (etiqueta del eje, {config: [valores por corrida]})
         "ttft": ("Tiempo al primer token (s)", {}),
-        "tps": ("Velocidad de generacion (tokens/s)", {}),
+        "tps": ("Velocidad de generación (tokens/s)", {}),
         "ram": ("Memoria pico (GB)", {}),
         "cpu": ("Uso medio de CPU (%)", {}),
     }
@@ -99,9 +99,10 @@ def main():
         medias = [media_desv(porcfg[c])[0] for c in cfgs]
         desvs = [media_desv(porcfg[c])[1] for c in cfgs]
         fig, ax = plt.subplots(figsize=(5, 3.5))
-        ax.bar(cfgs, medias, yerr=desvs, capsize=6, color=["#4c72b0", "#dd8452", "#55a868"][:len(cfgs)])
+        nombres = [{"native": "Nativo", "docker": "Docker"}.get(c, c) for c in cfgs]
+        ax.bar(nombres, medias, yerr=desvs, capsize=6, color=["#4c72b0", "#dd8452", "#55a868"][:len(cfgs)])
         ax.set_ylabel(etiqueta)
-        ax.set_xlabel("Configuracion")
+        ax.set_xlabel("Configuración")
         fig.tight_layout()
         destino = os.path.join(DOCS, f"fig_{clave}.png")
         fig.savefig(destino, dpi=200)
