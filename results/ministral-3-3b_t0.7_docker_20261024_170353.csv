@@ -1,0 +1,10 @@
+﻿id,category,model,temperature,prompt,output,tokens,ttft_s,total_s,tokens_per_s
+manual,manual,ministral-3:3b,0.7,"Hola, ¿quién eres?","¡Hola! Soy **Ministral-3-3B-Instruct-2512**, un modelo de lenguaje grande desarrollado por **Mistral AI**, una startup francesa de inteligencia artificial con sede en París.
+
+Estoy aquí para ayudarte con:
+- Respuestas basadas en conocimiento actualizado hasta **2023-10-01** (aunque puedo intentar buscar información más reciente cuando sea necesario, dependiendo de mis herramientas disponibles).
+- Resolver consultas técnicas, generales o contextuales.
+- Asistir con preguntas en múltiples idiomas.
+- Explicarte conceptos, resolver dudas o brindarte recomendaciones.
+
+¿En qué puedo ayudarte hoy? 😊",145,50.822,64.148,10.89
